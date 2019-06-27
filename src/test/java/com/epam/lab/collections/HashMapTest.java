@@ -28,7 +28,7 @@ public class HashMapTest
     @Test
     public void testGetReturnsCorrectValue() {
         //GIVEN
-        String expected = "Bingo";
+        String expected = "Value";
         map.put("Key", "Value");
         //WHEN
         String result = map.get("Key");
