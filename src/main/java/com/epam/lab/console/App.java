@@ -3,7 +3,7 @@ package com.epam.lab.console;
 import com.epam.lab.collections.HashMap;
 import com.epam.lab.collections.Map;
 import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+//import org.slf4j.LoggerFactory;
 
 import java.util.Iterator;
 
@@ -17,6 +17,7 @@ public class App {
         map.put("Hot", "Summer");
         map.put("Wet", "Autumn");
         map.put("Cold", "Winter");
+
 
         Iterator<Map.Entry<String, String>> iterator = map.iterator();
         while(iterator.hasNext()){
